@@ -1,0 +1,18 @@
+{
+  "name": "veynode-static-check",
+  "servedFrom": "public/catalog.json",
+  "files": [
+    {
+      "path": "/catalog.json",
+      "role": "Public JSON fetched by the page"
+    },
+    {
+      "path": "/mark.svg",
+      "role": "Public image with a stable URL"
+    },
+    {
+      "path": "/favicon.svg",
+      "role": "Icon linked from index.html"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A static React site for checking that Veynode serves HTML, CSS, JavaScript, routes, and assets."
+    />
+    <meta name="robots" content="noindex" />
+    <meta name="color-scheme" content="light" />
+    <title>Veynode static check</title>
+    <style>
+      body {
+        margin: 0;
+        background: #f4efe6;
+        color: #161410;
+        font-family: Georgia, "Iowan Old Style", serif;
+      }
+      .boot {
+        max-width: 36rem;
+        margin: 0;
+        padding: 3rem 1.5rem;
+        font-size: 1.75rem;
+        line-height: 1.25;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root">
+      <p class="boot">
+        HTML is here. If this sentence stays, the script did not run.
+      </p>
+    </div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
